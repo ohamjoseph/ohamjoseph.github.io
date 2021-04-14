@@ -1,0 +1,75 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+	<style> .blue {color:blue} </style>
+
+.. role:: red
+
+.. role:: blue
+
+Gestion des structures du MEA  
+=============================
+
+Ce module permet de prendre en charge les données des structures du MEA (direction générale, direction, service, ...) et les hiérarchiser selon l'organisation du ministère. 
+
+:blue:`Gérer les structures du MEA :`
+      ------------------------------
+
+Cette fonction permet de créer ou modifier les données d'une structure du MEA. Il permet aussi de supprimer une structure.  
+
+Le système commence à afficher l'écran de recherche des structures. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherStructure.png
+
+Cet écran permet de sélectionner la structure à modifier ou de créer une nouvelle structure. 
+
+Pour sélectionner une structure, cliquer sur la ligne correspondante.
+	
+Pour ajouter une nouvelle structure, cliquer sur le bouton "Ajouter". 
+	
+Le système affiche par la suite l'écran de gestion des structures. 
+
+**Interface**
+
+.. figure:: ./images/gererStructure.png
+
+Pour créer une nouvelle structure :
+	#. Saisir les données de la structure,
+	#. Cliquer sur le bouton "Enregistrer". 
+
+Pour supprimer une structure : 
+	#. Cliquer sur le bouton "Supprimer".
+	
+.. admonition:: Remarques
+
+   * Le type de la structure peut être centrale ou régionale,
+   * Le niveau de la structure peut être direction générale, direction, service, ... 
+   * La structure parente permet de sélectionner par exemple la direction à laquelle appartient un service,
+   * La structure est crée avec le statut "actif" par défaut, ce statut peut changer en "inactif", dans ce cas elle ne peut plus être référencée,
+   * La suppression d'une structure est possible si elle n'est pas référencée dans la base de données. 
+
+:blue:`Consulter les structures du MEA :`
+       --------------------------------
+
+Cette fonction permet de consulter les données d'une  structure.  
+
+Le système commence à afficher l'écran de recherche des structures. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherStructure.png
+
+Cet écran permet de sélectionner la structure à consulter.
+
+Pour sélectionner une structure, cliquer sur la ligne correspondante. 
+	
+Le système affiche par la suite l'écran de consultation de la structure.  
+
+**Interface**
+
+.. figure:: ./images/consulterStructure.png
+
+
+

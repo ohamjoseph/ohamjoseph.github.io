@@ -1,0 +1,3 @@
+Gestion des structures 
+
+Permet de gérer les structures du MEA 

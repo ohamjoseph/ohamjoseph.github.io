@@ -1,0 +1,80 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+	<style> .blue {color:blue} </style>
+
+.. role:: red
+
+.. role:: blue
+
+Gestion des collectivités territoriales  
+=======================================
+
+Ce module permet d'enregistrer les données des collectivités territoriales du pays : les régions, les provinces, les communes, les villes, ...
+
+Ce découpage peut aller aussi vers un découpage plus détaillé par exemple au niveau des secteurs et villages. 
+
+Les données géographiques d’une collectivité territoriale sont enregistrées, permettant de la localiser dans une carte.
+
+:blue:`Gérer les collectivités territoriales :`
+      ------------------------------
+
+Cette fonction permet de créer, modifier une collectivité territoriale. Il permet aussi de supprimer une collectivité territoriale.  
+
+Le système commence à afficher l'écran de recherche des collectivités territoriales. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherCollectivite.png
+
+Cet écran permet de sélectionner la collectivité territoriale à modifier ou de créer une nouvelle collectivité territoriale. 
+
+Pour sélectionner une collectivité territoriale, cliquer sur la ligne correspondante.
+	
+Pour ajouter une nouvelle collectivité territoriale, cliquer sur le bouton "Ajouter". 
+	
+Le système affiche par la suite l'écran de gestion des collectivités territoriales. 
+
+**Interface**
+
+.. figure:: ./images/gererCollectivite.png
+
+Pour créer une nouvelle collectivité territoriale : 
+
+	#. Saisir les données de la collectivité territoriale,
+	#. Cliquer sur le bouton "Enregistrer". 
+
+Pour supprimer une collectivité territoriale : 
+
+	#. Cliquer sur le bouton "Supprimer".
+	
+.. admonition:: Remarques
+
+   * Le type de la collectivité territoriale permet de spécifier s'il s'agit d'une région, province, ville, ...
+   * La collectivité territoriale parente permet de sélectionner par exemple la région à laquelle appartient la province,
+   * La collectivité territoriale est crée avec le statut "actif" par défaut, ce statut peut changer en "incatif", dans ce cas elle ne peut plus être référencée,
+   * La suppression d'une collectivité territoriale est possible si elle n'est pas référencée dans la base de données. 
+
+:blue:`Consulter les collectivités territoriales :`
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette fonction permet de consulter les données d'une  collectivité territoriale.  
+
+Le système commence à afficher l'écran de recherche des collectivités territoriales. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherCollectivite.png
+
+Cet écran permet de sélectionner la collectivité territoriale à consulter.
+
+Pour sélectionner une collectivité territoriale, cliquer sur la ligne correspondante. 
+	
+Le système affiche par la suite l'écran de consultation de la collectivité territoriale.  
+
+**Interface**
+
+.. figure:: ./images/gererCollectivite.png
+
+
+

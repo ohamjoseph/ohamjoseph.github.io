@@ -1,0 +1,74 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+	<style> .blue {color:blue} </style>
+
+.. role:: red
+
+.. role:: blue
+
+Gestion des organisations 
+=========================
+
+Ce module permet d'enregistrer les données des organisations intervenant dans le système d'information comme l'INSD, l'ONEA, les autres ministères, les ONG, PTF, ... 
+
+:blue:`Gérer les organisations :`
+      --------------------------
+
+Cette fonction permet de créer ou modifier les données d'une organisation. Il permet aussi de supprimer une organisation.  
+
+Le système commence à afficher l'écran de recherche des organisations. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherOrganisation.png
+
+Cet écran permet de sélectionner l'organisation à modifier ou de créer une nouvelle organisation. 
+
+Pour sélectionner une organisation, cliquer sur la ligne correspondante.
+	
+Pour ajouter une nouvelle organisation, cliquer sur le bouton "Ajouter". 
+	
+Le système affiche par la suite l'écran de gestion des organisations. 
+
+**Interface**
+
+.. figure:: ./images/gererOrganisation.png
+
+Pour créer une nouvelle organisation :
+	#. Saisir les données de l'organisation,
+	#. Cliquer sur le bouton "Enregistrer". 
+
+Pour supprimer une organisation : 
+	#. Cliquer sur le bouton "Supprimer".
+	
+.. admonition:: Remarques
+
+   * Le type de la organisation peut être ONG, PTF, ministère, organisme, ...
+   * Une organisation peut résider au Burkina Faso ou dans un pays étranger, 
+   * L'organisation est crée avec le statut "actif" par défaut, ce statut peut changer en "inactif", dans ce cas elle ne peut plus être référencée,
+   * La suppression d'une organisation est possible si elle n'est pas référencée dans la base de données. 
+
+:blue:`Consulter les organisations  :`
+       --------------------------------
+
+Cette fonction permet de consulter les données d'une  organisation.  
+
+Le système commence à afficher l'écran de recherche des organisations. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherOrganisation.png
+
+Cet écran permet de sélectionner la organisation à consulter.
+
+Pour sélectionner une organisation, cliquer sur la ligne correspondante. 
+	
+Le système affiche par la suite l'écran de consultation de l'organisation.  
+
+**Interface**
+
+.. figure:: ./images/consulterOrganisation.png
+
+
+

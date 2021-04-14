@@ -1,0 +1,89 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+	<style> .blue {color:blue} </style>
+
+.. role:: red
+
+.. role:: blue
+
+Gestion des personnes 
+=========================
+
+Ce module permet de constituer un annuaire regroupant les employés du MEA et les intervenants extérieurs attachés aux organisations.
+
+:blue:`Gérer les personnes :`
+      --------------------------
+
+Cette fonction permet de créer ou modifier les données d'une personne. Il permet aussi de supprimer les données d'une personne.  
+
+Le système commence à afficher l'écran de recherche des personnes. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherPersonne.png
+
+Cet écran permet de sélectionner la personne à modifier ou de créer une nouvelle personne. 
+
+Pour sélectionner une personne, cliquer sur la ligne correspondante.
+	
+Pour ajouter une nouvelle personne, cliquer sur le bouton "Ajouter". 
+	
+Le système affiche par la suite l'écran de gestion des personnes. 
+
+**Interface**
+
+.. figure:: ./images/gererPersonne.png
+
+Pour créer les données d'une nouvelle personne :
+	#. Saisir les données de la personne,
+	#. Cliquer sur le bouton "Enregistrer". 
+
+Pour supprimer les données d'une personne : 
+	#. Cliquer sur le bouton "Supprimer".
+	
+.. admonition:: Remarques
+
+   * Le type "interne" est affecté aux personnes qui sont les employés du MEA,
+   * Le type "externe" est affecté à une personne d'un partenaire du MEA.
+
+L'affectation de la personne à une structure du MEA ou une organisation est gérée dans l'écran suivant : 
+
+.. figure:: ./images/affecterPersonne.png
+
+Pour affecter la personne à une structure 
+	#. Sélectionner la structure,
+	#. Saisir la date de début d'affectation
+	
+Pour affecter une personne à une organisation : 
+	#. Sélectionner l'organisation, 
+	#. Saisir la date de début d'affectation,
+	#. Sélectionner la fonction dans l'organisation d'affectation. 
+
+.. admonition:: Remarques
+
+   * La saisie de la date de fin d'affectation indique que la personne n'est plus affectée à cette srcuture ou organisation à partir de cette date.
+   
+:blue:`Consulter les personnes  :`
+       --------------------------------
+
+Cette fonction permet de consulter les données d'une  personne.  
+
+Le système commence à afficher l'écran de recherche des personnes. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherPersonne.png
+
+Cet écran permet de sélectionner la personne à consulter.
+
+Pour sélectionner une personne, cliquer sur la ligne correspondante. 
+	
+Le système affiche par la suite l'écran de consultation des données de la personne.  
+
+**Interface**
+
+.. figure:: ./images/consulterPersonne.png
+
+
+

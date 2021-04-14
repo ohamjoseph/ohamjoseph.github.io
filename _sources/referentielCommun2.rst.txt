@@ -1,0 +1,32 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+	<style> .blue {color:blue} </style>
+
+.. role:: red
+
+.. role:: blue
+
+
+
+Référentiel commun
+==================
+
+
+Le référentiel commun permet de gérer les entités communes utilisées par toutes les applications à développer. Ces entités concernent :
+
+* **Les tables des codes** : il s'agit des données structurées en code et libellé référencées par toutes les applications comme par exemple les types d'intervenants, les natures d’interventions, ...
+
+* **Les structures du MEA** : Ces données représentent les structures du MEA souvent référencées pour affecter les utilisateurs du système d'information.
+
+* **Les collectivités territoriales** : C'est la présentation du découpage territorial en région, province, commune, ville, ce découpage est paramétré et peut évoluer selon les besoins des applications.
+
+* **Les organisations** : Il s'agit des partenaires du MEA qui interviennent dans la collecte des données et traitement comme l'INSD, l'ONEA, ..., le financement des programmes comme les PTF ...
+
+* **Les personnes** : Il s'agit de constituer un annuaire qui regroupe les employés du MEA qui sont les acteurs du système d'information ainsi que les intervenants externes en relation avec le MEA, ...
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+   ./tableCode.rst

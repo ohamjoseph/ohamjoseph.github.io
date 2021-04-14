@@ -1,0 +1,100 @@
+.. raw:: html
+
+    <style> .red {color:red} </style>
+	<style> .blue {color:blue} </style>
+
+.. role:: red
+
+.. role:: blue
+
+============================
+Gestion des tables des codes  
+============================
+
+Ce module permet de prendre en charge les données des tables des codes, par exemple les codes des intervenants, les natures des interventions, ...
+
+Une table des codes contient plusieurs éléments. Chaque élément est caractérisé par un code et un libellé. 
+
+Il permet aussi de consulter une table des codes  et ses éléments. 
+
+:blue:`Gérer les tables des codes :`
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette fonction permet de créer, modifier une table des codes et ses éléments. Il permet aussi de supprimer une table des codes.  
+
+Le système commence à afficher l'écran de recherche des tables des codes. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherTableCode.png
+
+Cet écran permet de sélectionner la table de code à modifier ou de créer une nouvelle table des codes. 
+
+Pour sélectionner une table des codes, cliquer sur la ligne correspondante à la table des codes à modifier. 
+	
+Pour ajouter une nouvelle table des codes, cliquer sur le bouton "Ajouter". 
+	
+Le système affiche par la suite l'écran de gestion des tables des codes. 
+
+**Interface**
+
+.. figure:: ./images/gererTableCode.png
+
+Pour créer une nouvelle table des codes : 
+
+	#. Saisir le libellé de la table,
+	#. Saisir les codes de la table, 
+	#. Cliquer sur le bouton "Enregistrer". 
+
+Pour supprimer une table des codes : 
+
+	#. Cliquer sur le bouton "Supprimer".
+	
+.. admonition:: Remarques
+
+   * Une table peut être changée en situation inactive, l'utilisateur coche le booléen "inactif". Les éléments de la table ne peuvent plus être utilisés.
+   * La suppression de la table est possible si ses éléments ne sont pas référencés dans la base de données. 
+
+La création ou la modification des éléments de la table des codes est effectuée comme suit : 
+
+Pour créer un nouvel élément de la table, cliquer sur le bouton "Ajouter". 
+
+Pour modifier les données d'un élément, cliquer sur la ligne correspondante dans le tableau. 
+
+Le système affiche l'écran suivant : 
+
+.. figure:: ./images/enregistrerElement.png
+
+Pour créer ou modifier les données de l'élément :
+
+	#. Saisir les données de l'élément, 
+	#. Cliquer sur le bouton "Enregistrer". 
+
+.. admonition:: Remarques
+
+   * L'utilisateur peut rendre l'élément dans la situation "inactif", il coche le booléen correspondant. Dans ce cas l'élément ne peut plus être utilisé. 
+   * La suppression d'un élément est possible s'il n'est pas encore référencé dans la base de données. 
+
+:blue:`Consulter les tables des codes :`
+       --------------------------------
+
+Cette fonction permet de consulter les données d'une table des codes et ses éléments.  
+
+Le système commence à afficher l'écran de recherche des tables des codes. 
+ 
+**Interface** 
+
+.. figure:: ./images/rechercherTableCode.png
+
+Cet écran permet de sélectionner la table des codes à consulter.
+
+Pour sélectionner une table des codes, cliquer sur la ligne correspondante. 
+	
+Le système affiche par la suite l'écran de consultation de la table des codes.  
+
+**Interface**
+
+.. figure:: ./images/gererTableCode.png
+
+
+
